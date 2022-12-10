@@ -6,7 +6,7 @@ const Contact = () => {
     <div id='contact' className='max-w-[1200px] m-auto p-4 my-9'>
         <div className='grid grid-rows-1 md:grid-cols-2 gap-4 mt-4'>
             <div >
-            <iframe className='w-full h-full  mt-6 p-4'  src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=eko atlantic, lagos&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> 
+            <iframe title="myFrame" className='w-full h-full  mt-6 p-4'  src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=eko atlantic, lagos&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> 
             </div>
             <div>
             <h2 className='text-center text-xl text-gray-700 font-bold my-4'>Contact Us</h2>

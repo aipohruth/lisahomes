@@ -17,10 +17,10 @@ const Contact = () => {
             <form onSubmit={handleSubmit}>
                     
                 <div className='grid grid-cols-1 px-6'>
-                    <input className='border border-gray-600 px-6 my-2 py-2 ' required type="text" placeholder='Name' />
-                    <input  className='border border-gray-600 px-6 my-2 py-2 ' required  type="email" placeholder='Email' />
-                    <input  className='border border-gray-600 px-6 my-2 py-2' required  type="number" placeholder='Contact No' />
-                    <textarea  className='border border-gray-600 px-2 my-2 py-2 ' required cols="5" rows="5" placeholder='Message ..'></textarea>
+                    <input className='border outline-none text-sm border-gray-600 px-6 my-2 py-2 ' required type="text" placeholder='Name' />
+                    <input  className='border outline-none text-sm border-gray-600 px-6 my-2 py-2 ' required  type="email" placeholder='Email' />
+                    <input  className='border outline-none text-sm border-gray-600 px-6 my-2 py-2' required  type="number" placeholder='Contact No' />
+                    <textarea  className='border outline-none text-sm border-gray-600 px-2 my-2 py-2 ' required cols="5" rows="5" placeholder='Message ..'></textarea>
                     <button className='mt-2' >Send Message</button>
                 </div>
             </form>

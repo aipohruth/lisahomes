@@ -11,18 +11,18 @@ const handleNav = () =>   {
   return (
     <div className='w-full min-h-[50px] flex justify-between items-center pr-8 pl-4 z-20 absolute bg-black text-white'>
          <ul className='hidden sm:flex'>
-                    <li><a href="/" className='hover:text-red-500'>Home</a></li>
-                    <li><a href="#location" className='hover:text-red-500'>Locations</a></li>
-                    <li><a href="#projects" className='hover:text-red-500'>Projects</a></li>
-                    <li><a href="#testimonials" className='hover:text-red-500'>Testimonials</a></li>
-                    <li><a href="#contact" className='hover:text-red-500'>Contact</a></li>
+                    <li><a href="/" className='hover:text-[#3496a3]'>Home</a></li>
+                    <li><a href="#location" className='hover:text-[#3496a3]'>Locations</a></li>
+                    <li><a href="#projects" className='hover:text-[#3496a3]'>Projects</a></li>
+                    <li><a href="#testimonials" className='hover:text-[#3496a3]'>Testimonials</a></li>
+                    <li><a href="#contact" className='hover:text-[#3496a3]'>Contact</a></li>
                 </ul>
      
             <div className='flex justify-between'>
-             <FaFacebookF className='mx-4 hover:text-red-500 cursor-pointer' />
-             <AiFillLinkedin className='mx-4 hover:text-red-500 cursor-pointer' />
-             <FaTwitter className='mx-4 hover:text-red-500 cursor-pointer' />
-             <FaInstagram className='mx-4 hover:text-red-500 cursor-pointer' />
+             <FaFacebookF className='mx-4 hover:text-[#3496a3] cursor-pointer' />
+             <AiFillLinkedin className='mx-4 hover:text-[#3496a3] cursor-pointer' />
+             <FaTwitter className='mx-4 hover:text-[#3496a3] cursor-pointer' />
+             <FaInstagram className='mx-4 hover:text-[#3496a3] cursor-pointer' />
             </div>
 
             <div className='sm:hidden z-10' >

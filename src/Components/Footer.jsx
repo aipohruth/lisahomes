@@ -11,13 +11,13 @@ const Footer = () => {
             <div className='flex flex-col'>
             <div className='flex mt-4'>
           <BiHomeHeart className='text-[#0f5963] ' size={30} />
-          <p className=' text-xl sm:text-2xl font-bold'>Home4All</p>
+          <p className=' text-xl sm:text-2xl select-none cursor-pointer font-bold '>Home4All</p>
           </div>
           <div className='flex mt-4'>
-             <FaFacebookF className='mr-2 hover:text-red-500 cursor-pointer' />
-             <AiFillLinkedin className=' mr-2 hover:text-red-500 cursor-pointer' />
-             <FaTwitter className=' mr-2 hover:text-red-500 cursor-pointer' />
-             <FaInstagram className=' mr-2 hover:text-red-500 cursor-pointer' />
+             <FaFacebookF className='mr-2 hover:text-[#3496a3] cursor-pointer' />
+             <AiFillLinkedin className=' mr-2 hover:text-[#3496a3] cursor-pointer' />
+             <FaTwitter className=' mr-2 hover:text-[#3496a3] cursor-pointer' />
+             <FaInstagram className=' mr-2 hover:text-[#3496a3] cursor-pointer' />
             </div>
           </div>
 

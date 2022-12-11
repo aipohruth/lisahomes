@@ -4,6 +4,7 @@ import {AiTwotoneStar} from 'react-icons/ai';
 import {FaMapMarkerAlt} from 'react-icons/fa';
 import  {Project1}  from '../Data/Data1';
 
+
 const Projects = () => {
   return (
     <div id='projects' className='max-w-[1200px] m-auto p-4 my-9'>
@@ -32,7 +33,7 @@ const Projects = () => {
            })}
         </div>
         <div className='flex justify-center mt-2'>
-        <button className=' rounded-lg'>See More</button>
+        <button className=' rounded-lg'><a href='/moreprojects'>See More</a></button>
         </div>
         
 

@@ -44,7 +44,7 @@ export const Project2 = [
         image: dup1,
         location:'lagos' ,
         name: 'Duplex',
-        text: 'A fully furnished Duplex',
+        text: 'Fully furnished',
         price: '$1m'
     },
     {
@@ -53,7 +53,7 @@ export const Project2 = [
         image: semi1,
         location:'Abuja' ,
         name: 'Semi-Detached',
-        text: 'A fully furnished Semi-Detached',
+        text: 'Fully furnished ',
         price: '$2m'
     },
     {
@@ -62,7 +62,7 @@ export const Project2 = [
         image: det1,
         location:'Calabar' ,
         name: 'Detached',
-        text: 'A fully furnished Detached',
+        text: 'Fully furnished',
         price: '$3m'
     },
     {
@@ -71,7 +71,7 @@ export const Project2 = [
         image: pent1,
         location:'Port-Harcourt' ,
         name: 'PentHouse',
-        text: 'A fully furnished PentHouse',
+        text: 'Fully furnished',
         price: '$4m'
     },
 
@@ -81,7 +81,7 @@ export const Project2 = [
         image: dup2,
         location:'lagos' ,
         name: 'Duplex',
-        text: 'A fully furnished Duplex',
+        text: 'Fully furnished',
         price: '$4m'
     },
     {
@@ -90,7 +90,7 @@ export const Project2 = [
         image: semi2,
         location:'lagos' ,
         name: 'Semi-Detached',
-        text: 'A fully furnished Semi-Detached',
+        text: 'Fully furnished',
         price: '$3m'
     },
     {
@@ -99,7 +99,7 @@ export const Project2 = [
         image: det2,
         location:'lagos' ,
         name: 'Detached',
-        text: 'A fully furnished Detached',
+        text: 'Fully furnished',
         price: '$2m'
     },
     {
@@ -108,7 +108,7 @@ export const Project2 = [
         image: pent2,
         location:'Port-Harcourt' ,
         name: 'PentHouse',
-        text: 'A fully furnished PentHouse',
+        text: 'Fully furnished',
         price: '$1m'
     },
     {
@@ -117,7 +117,7 @@ export const Project2 = [
         image: dup3,
         location:'lagos' ,
         name: 'Duplex',
-        text: 'A fully furnished Duplex',
+        text: 'Fully furnished',
         price: '$2m'
     },
     {
@@ -126,7 +126,7 @@ export const Project2 = [
         image: semi3,
         location:'Port-Harcourt' ,
         name: 'Semi-Detached',
-        text: 'A fully furnished Semi-Detached',
+        text: 'Fully furnished',
         price: '$1m'
     },
     {
@@ -135,7 +135,7 @@ export const Project2 = [
         image: det3,
         location:'Abuja' ,
         name: 'Detached',
-        text: 'A fully furnished Detached',
+        text: 'Fully furnished',
         price: '$4m'
     },
     {
@@ -144,7 +144,7 @@ export const Project2 = [
         image: pent3,
         location:'Calabar' ,
         name: 'PentHouse',
-        text: 'A fully furnished PentHouse',
+        text: 'Fully furnished',
         price: '$3m'
     },
 

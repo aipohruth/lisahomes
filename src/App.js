@@ -1,27 +1,26 @@
 import React from "react";
-import About from "./Components/About";
-import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
-import Location from "./Components/Location";
-import Navbar from "./Components/Navbar";
-import Projects from "./Components/Projects";
-import Testimonials from "./Components/Testimonials";
-import Topbar from "./Components/Topbar";
+import Home from "./Components/Home";
+import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import FullProjects from "./Components/FullProjects";
+
 
 
 
 function App() {
   return (
-    <div>
-      <Topbar />
-      <Navbar />
-      <About />
-      <Location  />
-      <Projects />
-      <Testimonials />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <Link className='hidden' to="/">Home</Link>
+      <Link className='hidden' to="/moreprojects">FullProjects</Link>
+
+      <main>
+      <Routes>
+        <Route path='/moreprojects' element={<FullProjects/>}/>
+        <Route path='/' element={<Home />}/>
+        
+        </Routes> 
+        
+      </main> 
+     </Router>
   );
 }
 

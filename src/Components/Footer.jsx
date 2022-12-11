@@ -26,7 +26,7 @@ const Footer = () => {
                <p className='text-sm'>Lagos</p>
                <p className='text-sm'>Calabar</p>
                <p className='text-sm'>Port-Harcourt</p>
-               <p className='text-sm'>LAbuja</p>
+               <p className='text-sm'>Abuja</p>
             </div>
 
              <div>
@@ -41,7 +41,7 @@ const Footer = () => {
                <p className='text-sm'>Lagos</p>
                <p className='text-sm'>Calabar</p>
                <p className='text-sm' >Port-Harcourt</p>
-               <p className='text-sm'>LAbuja</p>
+               <p className='text-sm'>Abuja</p>
             </div>
 
 

@@ -13,6 +13,7 @@ function App() {
       <Link className='hidden' to="/">Home</Link>
       <Link className='hidden' to="/moreprojects">FullProjects</Link>
       <Link className='hidden' to="/abouts">MoreAbout</Link>
+      
 
       <main>
       <Routes>

@@ -1,7 +1,9 @@
 import React, {useState} from 'react';
 import {BsFillBookFill} from 'react-icons/bs';
 import {AiTwotoneStar} from 'react-icons/ai';
-import {FaQuoteLeft} from 'react-icons/fa';
+/*import {FaQuoteLeft, FaQuoteRight} from 'react-icons/fa';
+<FaQuoteLeft size={10} className='absolute top-[98px] left-[20px]' />
+                        <FaQuoteRight size={10} className='absolute top-[98px] right-[20px]'/> */
 
 import { testimonials } from '../Data/Data2';
 
@@ -14,13 +16,13 @@ const Testimonials = () => {
       <h1 className='text-center text-gray-700 font-medium border-b-2 border-b-[var(--primary-light)]  text-3xl'>Testimonials</h1>
       </div>
            
-      <div  className=' max-w-[600px] h-full w-full mx-auto cursor-pointer bg-white grid grid-rows-1 p-4 md:grid    md:grid-cols-3 gap-4   '>
+      <div  className=' max-w-[600px] relative h-full w-full mx-auto cursor-pointer bg-white grid grid-rows-1 p-4 md:grid    md:grid-cols-3 gap-4   '>
                 {people.map((person, personIndex) =>{
                     const {image, name, text} = person;
                     return (<div key={personIndex}  className='rounded-md first:col-span-1  first:row-span-1 border shadow-xl flex flex-col items-center '>
                         <img src={image} alt={name} className='w-[50px] h-[50px] m-4 rounded-full object-cover' />
-                        <FaQuoteLeft size={10} />
-                        <p className='text-gray-700 px-4 text-[14px] '>{text}</p>
+                        
+                        <p className='text-gray-700 px-4 text-[14px] '><q>{text}</q></p>
                         
                         <span className=' text-sm mt-3 font-bold mb-1 text-gray-700'>{name}</span>
                         <div className='flex mb-4 text-[var(--primary-light)]'>

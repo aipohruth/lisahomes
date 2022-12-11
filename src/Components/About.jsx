@@ -18,7 +18,7 @@ const About = () => {
              
              </p>
              <div >
-             <button  ><a href='/abouts' className=' text-black font-bold hover:text-[#3496a3]'>Read More</a></button>
+             <button className='hover:bg-none hover:border-4 hover:border-[#3496a3]' ><a href='/abouts' className=' text-black font-bold '>Read More</a></button>
              </div>
         </div>
       </div>

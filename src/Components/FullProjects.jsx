@@ -50,7 +50,7 @@ const FullProjects = () => {
         <div>
         <p className='font-medium m-1 text-gray-700'>Filter by Location</p>
         <div className='grid grid-cols-2'>
-                <button onClick={() => filterLocation('lagos')}  className='m-1 rounded-md'>Lagos</button>
+                <button onClick={() => filterLocation('Lagos')}  className='m-1 rounded-md'>Lagos</button>
                 <button onClick={() => filterLocation('Abuja')} className='m-1 rounded-md'>Abuja</button>
                 <button onClick={() => filterLocation('Calabar')} className='m-1 rounded-md'>Calabar</button>
                 <button onClick={() => filterLocation('Port-Harcourt')} className='m-1 rounded-md'>Port-Harcourt</button>

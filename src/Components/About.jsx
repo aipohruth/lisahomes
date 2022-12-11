@@ -8,7 +8,7 @@ const About = () => {
       <div className='max-w-[1200px] m-auto'>
         <div className='absolute z-0 top-[30%] right-[5%]  text-right p-2 w-full max-w-[400px] text-black flex flex-col '>
         <h2 className='text-3xl font-bold'>About Us Home4All</h2>
-        <p className=' my-4 font-2xl font-bold'>
+        <p className=' my-4 font-2xl font-bold p-1'>
         <span className='font-bold'>Home4all</span> is a real estate firm that helps Investors and our enormous clients to secure, purchase, 
             lease properties.
             Our dedicated team of experts 

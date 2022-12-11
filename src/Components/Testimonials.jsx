@@ -7,11 +7,6 @@ import { testimonials } from '../Data/Data2';
 
 const Testimonials = () => {
     const[people] = useState(testimonials);
-    
-   
-
-
-
   return (
     <div id='testimonials' className='max-w-[1200px]  m-auto p-4 my-9'>
         <div className='flex items-center justify-center my-8'>

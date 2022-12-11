@@ -42,7 +42,7 @@ export const Project2 = [
         id:1,
         type: 'Duplex',
         image: dup1,
-        location:'lagos' ,
+        location:'Lagos' ,
         name: 'Duplex',
         text: 'Fully furnished',
         price: '$1m'
@@ -79,7 +79,7 @@ export const Project2 = [
         id:5,
         type: 'Duplex',
         image: dup2,
-        location:'lagos' ,
+        location:'Lagos' ,
         name: 'Duplex',
         text: 'Fully furnished',
         price: '$4m'
@@ -88,7 +88,7 @@ export const Project2 = [
         id:6,
         type: 'Semi-Detached',
         image: semi2,
-        location:'lagos' ,
+        location:'Lagos' ,
         name: 'Semi-Detached',
         text: 'Fully furnished',
         price: '$3m'
@@ -97,7 +97,7 @@ export const Project2 = [
         id:7,
         type: 'Detached',
         image: det2,
-        location:'lagos' ,
+        location:'Lagos' ,
         name: 'Detached',
         text: 'Fully furnished',
         price: '$2m'
@@ -115,7 +115,7 @@ export const Project2 = [
         id:9,
         type: 'Duplex',
         image: dup3,
-        location:'lagos' ,
+        location:'Lagos' ,
         name: 'Duplex',
         text: 'Fully furnished',
         price: '$2m'

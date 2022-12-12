@@ -3,7 +3,7 @@ import Home from "./Components/Home";
 import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import FullProjects from "./Components/FullProjects";
 import MoreAbout from "./Components/MoreAbout";
-
+import Notfound from "./Components/Notfound";
 
 
 
@@ -20,6 +20,7 @@ function App() {
         <Route path='/moreprojects' element={<FullProjects/>}/>
         <Route path='/abouts' element={<MoreAbout/>}/>
         <Route path='/' element={<Home />}/>
+        <Route path='*' element= {<Notfound />} />
         
         </Routes> 
         

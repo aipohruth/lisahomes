@@ -10,7 +10,7 @@ import Topbar from "./Topbar";
 const Home = () => {
   return (
     <div>
-       <Topbar />
+      <Topbar />
       <Navbar />
       <About />
       <Location  />

@@ -13,10 +13,10 @@ const handleNav = () =>   {
         
          <ul className=' hidden sm:flex' >
                     <li><a href="/" className='hover:text-[#3496a3]'>Home</a></li>
-                    <li><a href="#location" className='hover:text-[#3496a3]'>Locations</a></li>
-                    <li><a href="#projects" className='hover:text-[#3496a3]'>Projects</a></li>
-                    <li><a href="#testimonials" className='hover:text-[#3496a3]'>Testimonials</a></li>
-                    <li><a href="#contact" className='hover:text-[#3496a3]'>Contact</a></li>
+                    <li><a href="/locations" className='hover:text-[#3496a3]'>Locations</a></li>
+                    <li><a href="/moreprojects" className='hover:text-[#3496a3]'>Projects</a></li>
+                    <li><a href="/testimonies" className='hover:text-[#3496a3]'>Testimonials</a></li>
+                    <li><a href="/contacts" className='hover:text-[#3496a3]'>Contact</a></li>
                 </ul>
                 
             <div className='flex justify-between'>
@@ -33,10 +33,10 @@ const handleNav = () =>   {
             <div className={nav ?'overflow-y-hidden md:hidden  ease-in px-4 py-7 flex flex-col w-full duration-300 text-gray-300 absolute left-0 top-0 h-screen bg-black': 'absolute top-0 h-screen left-[-100%] ease-in duration-500' }>
             <ul className='text-center pt-8 w-full h-full' onClick={() => setNav(!nav)}>
                     <li><a className='text-xl' href="/">Home</a></li>
-                    <li><a  className='text-xl' href="#location">Our Locations</a></li>
-                    <li><a className='text-xl' href="#projects">Projects</a></li>
-                    <li><a className='text-xl' href="#testimonials">Testimonials</a></li>
-                    <li><a className='text-xl' href="#contact">Contact</a></li>
+                    <li><a  className='text-xl' href="/locations">Our Locations</a></li>
+                    <li><a className='text-xl' href="/moreprojects">Projects</a></li>
+                    <li><a className='text-xl' href="/testimonies">Testimonials</a></li>
+                    <li><a className='text-xl' href="/contacts">Contact</a></li>
                 </ul>
             </div>
         </div>
